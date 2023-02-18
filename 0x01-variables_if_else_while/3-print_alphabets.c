@@ -9,20 +9,20 @@
  */
 int main(void)
 {
-        int alpha = 'a';
+	int alpha = 'a';
 	int al = 'A';
 
-        while (alpha <= 'z')
-        {
-                putchar(alpha);
-                alpha++;
-        }
+	while (alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
 
 	while (al <= 'Z')
 	{
 		putchar(al);
 		al++;
 	}
-                putchar('\n');
-                return (0);
+		putchar('\n');
+		return (0);
 }
