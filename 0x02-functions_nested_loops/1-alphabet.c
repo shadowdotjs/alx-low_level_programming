@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * Function to print alphabets
- * Return: Always 0.
+ * print_alphabet - Function to print alphabets
  */
 	void print_alphabet(void)
+	/*function to print lower case alphabets*/
 	{
 		char alpha;
 
